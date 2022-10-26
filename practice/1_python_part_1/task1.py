@@ -13,6 +13,11 @@ Examples:
 """
 from typing import List, Any
 
+#list of numbers
+numbers = ['1', '2', '3', '4', '15', '25', '22', '354']
+numbers.remove ('1')
+
+print ('updated list', numbers)
 
 def delete_from_list(list_to_clean: List, item_to_delete: Any) -> List:
     ...
